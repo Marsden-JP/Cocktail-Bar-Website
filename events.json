@@ -1,0 +1,113 @@
+[{
+        "id": 1,
+        "discount": 50,
+        "month": "NOV.",
+        "date": 11,
+        "image": "/images/event-posters/event-poster-1.png"
+    },
+    {
+        "id": 2,
+        "discount": 50,
+        "month": "DEC.",
+        "date": 22,
+        "image": "/images/event-posters/event-poster-2.png"
+    },
+    {
+        "id": 3,
+        "discount": 50,
+        "month": "DEC.",
+        "date": 31,
+        "image": "/images/event-posters/event-poster-3.png"
+    },
+    {
+        "id": 4,
+        "discount": 50,
+        "month": "JAN.",
+        "date": 7,
+        "image": "/images/event-posters/event-poster-4.png"
+    },
+    {
+        "id": 5,
+        "discount": 50,
+        "month": "JAN.",
+        "date": 22,
+        "image": "/images/event-posters/event-poster-5.png"
+    },
+    {
+        "id": 6,
+        "discount": 50,
+        "month": "FEB.",
+        "date": 1,
+        "image": "/images/event-posters/event-poster-6.png"
+    },
+    {
+        "id": 7,
+        "discount": 50,
+        "month": "FEB.",
+        "date": 15,
+        "image": "/images/event-posters/event-poster-7.png"
+    },
+    {
+        "id": 8,
+        "discount": 50,
+        "month": "MAR.",
+        "date": 1,
+        "image": "/images/event-posters/event-poster-8.png"
+    },
+    {
+        "id": 9,
+        "discount": 50,
+        "month": "MAR.",
+        "date": 10,
+        "image": "/images/event-posters/event-poster-9.png"
+    },
+    {
+        "id": 10,
+        "discount": 50,
+        "month": "MAR.",
+        "date": 20,
+        "image": "/images/event-posters/event-poster-10.png"
+    },
+    {
+        "id": 11,
+        "discount": 50,
+        "month": "APR.",
+        "date": 10,
+        "image": "/images/event-posters/event-poster-11.png"
+    },
+    {
+        "id": 12,
+        "discount": 50,
+        "month": "APR.",
+        "date": 15,
+        "image": "/images/event-posters/event-poster-12.png"
+    },
+    {
+        "id": 13,
+        "discount": 50,
+        "month": "MAY.",
+        "date": 1,
+        "image": "/images/event-posters/event-poster-13.png"
+    },
+    {
+        "id": 14,
+        "discount": 50,
+        "month": "MAY.",
+        "date": 13,
+        "image": "/images/event-posters/event-poster-14.png"
+    },
+    {
+        "id": 15,
+        "discount": 50,
+        "month": "MAR.",
+        "date": 17,
+        "image": "/images/event-posters/event-poster-15.png"
+    },
+    {
+        "id": 16,
+        "discount": 50,
+        "month": "JUN.",
+        "date": 22,
+        "image": "/images/event-posters/event-poster-15.png"
+    }
+]
