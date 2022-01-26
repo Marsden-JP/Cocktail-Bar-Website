@@ -1,8 +1,8 @@
-const productContainers = [...document.querySelectorAll('.event-container')];
+const eventContainers = [...document.querySelectorAll('.event-container')];
 const nxtBtn = [...document.querySelectorAll('.nxt-btn')];
 const preBtn = [...document.querySelectorAll('.pre-btn')];
 
-productContainers.forEach((item, i) => {
+eventContainers.forEach((item, i) => {
     let containerDimensions = item.getBoundingClientRect();
     let containerWidth = containerDimensions.width;
 
@@ -35,14 +35,12 @@ async function fetchProducts() {
     await fetch('events.json')
         .then((response) => {
             if (!response.ok) {
-                throw new Error('Network repsonse was not okay');
+                throw new Error('Network reponse was not okay');
             }
             return response.json();
         })
         .then((data) => {
             events = data
-            console.log(events);
-            //2. Parse the data and create the 'event' divs
             document.querySelector('.event-container').innerHTML = data.map(loadEvents).join('');
         })
         .catch((error) => {
