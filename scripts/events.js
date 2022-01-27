@@ -28,14 +28,14 @@ function loadEvents(review) {
             </div>
         </div>
     `)
-}
+};
 
-//1. Fetch the data from the API
-async function fetchProducts() {
+//Fetch the data from the API
+async function fetchEvents() {
     await fetch('events.json')
         .then((response) => {
             if (!response.ok) {
-                throw new Error('Network reponse was not okay');
+                throw new Error('Network response was not okay');
             }
             return response.json();
         })
@@ -44,8 +44,6 @@ async function fetchProducts() {
             document.querySelector('.event-container').innerHTML = data.map(loadEvents).join('');
         })
         .catch((error) => {
-            console.error('There is a problem with the fetch operation:',
-                error);
+            console.error('There is a problem with the fetch operation:', error);
         });
-}
-fetchProducts();
+} fetchEvents();
